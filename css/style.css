@@ -1,0 +1,3418 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+
+body {
+  /* background:radial-gradient(circle at 50%, rgba(0, 26, 255, 0.36) 0%, rgba(0, 26, 255, 0.0108) 100% ); */
+  background: linear-gradient(to bottom, black 0%, blue 50%, black 100%);
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* min-height: 1369vh; */
+  margin: 0;
+  /* color: white; */
+  font-family: 'Electrolize', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  overflow-x: hidden;
+}
+
+.top p {
+  font-size: 18px;
+  margin: 0;
+}
+.logo {
+  position: absolute;
+  top: 250px;
+  left: calc(50% - 40vw);
+  width: 80vw;
+}
+
+.top {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+
+.type1 {
+  animation-name: a1;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes a1 {
+  0% {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0;
+  }
+
+  40% {
+    color: #3142DE;
+  }
+
+  100% {
+    color: blue;
+    margin-top: -100px;
+  }
+}
+
+.type2 {
+  animation-name: a2;
+  animation-duration: 3s;
+  animation-delay: 1.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a2 {
+  0% {
+    color: blue;
+  }
+
+  40% {
+    color: #3142DE;
+  }
+
+  100% {
+    color: rgba(255, 255, 255, 0.5);
+  }
+}
+
+.type3 {
+  animation-name: a3;
+  animation-duration: 4s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a3 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: rgba(255, 255, 255, 0.5);
+  }
+}
+
+.type4 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 1.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a4 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color:  rgba(255, 255, 255, 0.5);
+  }
+}
+
+.type5 {
+  animation-name: a5;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes a5 {
+  0% {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0;
+  }
+
+  40% {
+    color: #3142DE;
+  }
+
+  100% {
+    color: blue;
+    margin-top: -100px;
+  }
+}
+
+.type6 {
+  animation-name: a3;
+  animation-duration: 3s;
+  animation-delay: 1.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a6 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type7 {
+  animation-name: a3;
+  animation-duration: 4s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a7 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: rgba(255, 255, 255, 0.5);
+  }
+}
+
+.type8 {
+  animation-name: a8;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes a8 {
+  0% {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0;
+  }
+
+  40% {
+    color: #3142DE;
+  }
+
+  100% {
+    color: blue;
+    margin-top: -100px;
+  }
+}
+.type9 {
+  animation-name: a3;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a9 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: rgba(255, 255, 255, 0.5);
+  }
+}
+
+.type10 {
+  animation-name: a3;
+  animation-duration: 2s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a10 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: rgba(255, 255, 255, 0.5);
+  }
+}
+
+.type11 {
+  animation-name: a1;
+  animation-duration: 3s;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a11 {
+  0% {
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  40% {
+    color: #3142DE;
+  }
+
+  100% {
+    color: blue;
+  }
+}
+
+.type12 {
+  animation-name: a12;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes a12 {
+  0% {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0;
+  }
+
+  40% {
+    color: #3142DE;
+  }
+
+  100% {
+    color: blue;
+    margin-top: -100px;
+  }
+}
+
+.type13 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a13 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: rgba(255, 255, 255, 0.5);
+  }
+}
+
+.type14 {
+  animation-name: a3;
+  animation-duration: 2s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a14 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: rgba(255, 255, 255, 0.5);
+  }
+}
+
+.type15 {
+  animation-name: a15;
+  animation-duration: 3s;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes a15 {
+  0% {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0;
+  }
+
+  40% {
+    color: #3142DE;
+  }
+
+  100% {
+    color: blue;
+    margin-top: -100px;
+  }
+}
+
+.type16 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a16 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: rgba(255, 255, 255, 0.5);
+  }
+}
+
+.type17 {
+  animation-name: a17;
+  animation-duration: 2s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes a17 {
+  0% {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0;
+  }
+
+  40% {
+    color: #3142DE;
+  }
+
+  100% {
+    color: blue;
+    margin-top: -100px;
+  }
+}
+
+.type18 {
+  animation-name: a18;
+  animation-duration: 3s;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes a18 {
+  0% {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0;
+  }
+
+  40% {
+    color: #3142DE;
+  }
+
+  100% {
+    color: blue;
+    margin-top: -100px;
+  }
+}
+.type19 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a19 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: rgba(255, 255, 255, 0.5);
+  }
+}
+
+.type20 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a20 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: rgba(255, 255, 255, 0.5);
+  }
+}
+
+.type21 {
+  animation-name: a1;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a21 {
+  0% {
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  40% {
+    color: #3142DE;
+  }
+
+  100% {
+    color: blue;
+  }
+}
+
+.type22 {
+  animation-name: a22;
+  animation-duration: 2s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes a22 {
+  0% {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0;
+  }
+
+  40% {
+    color: #3142DE;
+  }
+
+  100% {
+    color: blue;
+    margin-top: -100px;
+  }
+}
+
+.type23 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a23 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: rgba(255, 255, 255, 0.5);
+  }
+}
+
+.type24 {
+  animation-name: a3;
+  animation-duration: 2s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a24 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: rgba(255, 255, 255, 0.5);
+  }
+}
+
+.type25 {
+  animation-name: a25;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes a25 {
+  0% {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0;
+  }
+
+  40% {
+    color: #3142DE;
+  }
+
+  100% {
+    color: blue;
+    margin-top: -100px;
+  }
+}
+
+.type26 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a26 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: rgba(255, 255, 255, 0.5)rgba(255, 255, 255, 0.5);
+  }
+}
+
+.type27 {
+  animation-name: a3;
+  animation-duration: 2s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a27 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: rgba(255, 255, 255, 0.5);
+  }
+}
+
+.type28 {
+  animation-name: a28;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes a28 {
+  0% {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0;
+  }
+
+  40% {
+    color: #3142DE;
+  }
+
+  100% {
+    color: blue;
+    margin-top: -100px;
+  }
+}
+.type29 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a29 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type30 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a30 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type31 {
+  animation-name: a1;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a31 {
+  0% {
+    color: white;
+  }
+
+  40% {
+    color: #3142DE;
+  }
+
+  100% {
+    color: blue;
+  }
+}
+
+.type32 {
+  animation-name: a32;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes a32 {
+  0% {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0;
+  }
+
+  40% {
+    color: #3142DE;
+  }
+
+  100% {
+    color: blue;
+    margin-top: -100px;
+  }
+}
+
+.type33 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a33 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type34 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a34 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type35{
+  animation-name: a35;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes a35 {
+  0% {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0;
+  }
+
+  40% {
+    color: #3142DE;
+  }
+
+  100% {
+    color: blue;
+    margin-top: -100px;
+  }
+}
+
+.type36 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a36 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type37 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a37 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type38 {
+  animation-name: a38;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes a38 {
+  0% {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0;
+  }
+
+  40% {
+    color: #3142DE;
+  }
+
+  100% {
+    color: blue;
+    margin-top: -100px;
+  }
+}
+
+.type39 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a39 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type40 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a40 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type41 {
+  animation-name: a1;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a41 {
+  0% {
+    color: white;
+  }
+
+  40% {
+    color: #3142DE;
+  }
+
+  100% {
+    color: blue;
+  }
+}
+
+.type42 {
+  animation-name: a42;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes a42 {
+  0% {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0;
+  }
+
+  40% {
+    color: #3142DE;
+  }
+
+  100% {
+    color: blue;
+    margin-top: -100px;
+  }
+}
+
+.type43 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a43 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type44 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a44 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type45 {
+  animation-name: a45;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes a45 {
+  0% {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0;
+  }
+
+  40% {
+    color: #3142DE;
+  }
+
+  100% {
+    color: blue;
+    margin-top: -100px;
+  }
+}
+.type46 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a46 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type47 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a47 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type48 {
+  animation-name: a48;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes a48 {
+  0% {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0;
+  }
+
+  40% {
+    color: #3142DE;
+  }
+
+  100% {
+    color: blue;
+    margin-top: -100px;
+  }
+}
+
+.type49 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a49 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type50 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a50 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type51 {
+  animation-name: a1;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a51 {
+  0% {
+    color: white;
+  }
+
+  40% {
+    color: #3142DE;
+  }
+
+  100% {
+    color: blue;
+  }
+}
+
+.type52 {
+  animation-name: a52;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes a52 {
+  0% {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0;
+  }
+
+  40% {
+    color: #3142DE;
+  }
+
+  100% {
+    color: blue;
+    margin-top: -100px;
+  }
+}
+
+.type53 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a53 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type54 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a54 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type55 {
+  animation-name: a55;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes a55 {
+  0% {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0;
+  }
+
+  40% {
+    color: #3142DE;
+  }
+
+  100% {
+    color: blue;
+    margin-top: -100px;
+  }
+}
+.type56 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a56 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type57 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a57 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type58 {
+  animation-name: a58;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes a58 {
+  0% {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0;
+  }
+
+  40% {
+    color: #3142DE;
+  }
+
+  100% {
+    color: blue;
+    margin-top: -100px;
+  }
+}
+
+.type59 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a59 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type60 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a60 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type61 {
+  animation-name: a1;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a61 {
+  0% {
+    color: white;
+  }
+
+  40% {
+    color: #3142DE;
+  }
+
+  100% {
+    color: blue;
+  }
+}
+
+.type62 {
+  animation-name: a62;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes a62 {
+  0% {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0;
+  }
+
+  40% {
+    color: #3142DE;
+  }
+
+  100% {
+    color: blue;
+    margin-top: -100px;
+  }
+}
+
+.type63 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a63 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type64 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a64 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type65 {
+  animation-name: a65;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes a65 {
+  0% {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0;
+  }
+
+  40% {
+    color: #3142DE;
+  }
+
+  100% {
+    color: blue;
+    margin-top: -100px;
+  }
+}
+
+.type66 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a66 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type67 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a67 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type68 {
+  animation-name: a68;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes a68 {
+  0% {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0;
+  }
+
+  40% {
+    color: #3142DE;
+  }
+
+  100% {
+    color: blue;
+    margin-top: -100px;
+  }
+}
+
+.type69 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a69 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type70 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a70 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type71 {
+  animation-name: a1;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a71 {
+  0% {
+    color: white;
+  }
+
+  40% {
+    color: #3142DE;
+  }
+
+  100% {
+    color: blue;
+  }
+}
+
+.type72 {
+  animation-name: a72;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes a72 {
+  0% {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0;
+  }
+
+  40% {
+    color: #3142DE;
+  }
+
+  100% {
+    color: blue;
+    margin-top: -100px;
+  }
+}
+
+.type73 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a73 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type74 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a74 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type75 {
+  animation-name: a75;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes a75 {
+  0% {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0;
+  }
+
+  40% {
+    color: #3142DE;
+  }
+
+  100% {
+    color: blue;
+    margin-top: -100px;
+  }
+}
+
+.type76 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a76 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type77 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a77 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type78 {
+  animation-name: a78;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes a78 {
+  0% {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0;
+  }
+
+  40% {
+    color: #3142DE;
+  }
+
+  100% {
+    color: blue;
+    margin-top: -100px;
+  }
+}
+
+.type79 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a79 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type80 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a80 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type81 {
+  animation-name: a1;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a81 {
+  0% {
+    color: white;
+  }
+
+  40% {
+    color: #3142DE;
+  }
+
+  100% {
+    color: blue;
+  }
+}
+
+.type82 {
+  animation-name: a82;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes a82 {
+  0% {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0;
+  }
+
+  40% {
+    color: #3142DE;
+  }
+
+  100% {
+    color: blue;
+    margin-top: -100px;
+  }
+}
+
+.type83 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a83 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type84 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a84 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type85 {
+  animation-name: a85;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes a85 {
+  0% {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0;
+  }
+
+  40% {
+    color: #3142DE;
+  }
+
+  100% {
+    color: blue;
+    margin-top: -100px;
+  }
+}
+
+.type86 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a86 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type87 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a87 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type88 {
+  animation-name: a88;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes a88 {
+  0% {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0;
+  }
+
+  40% {
+    color: #3142DE;
+  }
+
+  100% {
+    color: blue;
+    margin-top: -100px;
+  }
+}
+
+.type89 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a89 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type90 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a90 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type91 {
+  animation-name: a1;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a91 {
+  0% {
+    color: white;
+  }
+
+  40% {
+    color: #3142DE;
+  }
+
+  100% {
+    color: blue;
+  }
+}
+
+.type92 {
+  animation-name: a92;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes a92 {
+  0% {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0;
+  }
+
+  40% {
+    color: #3142DE;
+  }
+
+  100% {
+    color: blue;
+    margin-top: -100px;
+  }
+}
+
+.type93 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a93 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type94 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a94 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type95 {
+  animation-name: a95;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes a95 {
+  0% {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0;
+  }
+
+  40% {
+    color: #3142DE;
+  }
+
+  100% {
+    color: blue;
+    margin-top: -100px;
+  }
+}
+
+.type96 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a96 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type97 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a97 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type98 {
+  animation-name: a98;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes a98 {
+  0% {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0;
+  }
+
+  40% {
+    color: #3142DE;
+  }
+
+  100% {
+    color: blue;
+    margin-top: -100px;
+  }
+}
+
+.type99 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a99 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type100 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a100 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type101 {
+  animation-name: a1;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a101 {
+  0% {
+    color: white;
+  }
+
+  40% {
+    color: #3142DE;
+  }
+
+  100% {
+    color: blue;
+  }
+}
+
+.type102 {
+  animation-name: a102;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes a102 {
+  0% {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0;
+  }
+
+  40% {
+    color: #3142DE;
+  }
+
+  100% {
+    color: blue;
+    margin-top: -100px;
+  }
+}
+
+.type103 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a103 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type104 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a104 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type105 {
+  animation-name: a105;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes a105 {
+  0% {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0;
+  }
+
+  40% {
+    color: #3142DE;
+  }
+
+  100% {
+    color: blue;
+    margin-top: -100px;
+  }
+}
+
+.type106 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a106 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type107 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a107 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type108 {
+  animation-name: a108;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes a108 {
+  0% {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0;
+  }
+
+  40% {
+    color: #3142DE;
+  }
+
+  100% {
+    color: blue;
+    margin-top: -100px;
+  }
+}
+
+.type109 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a109 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type110 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a110 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type111 {
+  animation-name: a1;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a111 {
+  0% {
+    color: white;
+  }
+
+  40% {
+    color: #3142DE;
+  }
+
+  100% {
+    color: blue;
+  }
+}
+
+.type112 {
+  animation-name: a112;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes a112 {
+  0% {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0;
+  }
+
+  40% {
+    color: #3142DE;
+  }
+
+  100% {
+    color: blue;
+    margin-top: -100px;
+  }
+}
+.type113 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a113 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type114 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a114 {
+  0% {
+    color: #3142DE;
+  }
+
+  40%11 {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type115 {
+  animation-name: a115;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes a115 {
+  0% {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0;
+  }
+
+  40% {
+    color: #3142DE;
+  }
+
+  100% {
+    color: blue;
+    margin-top: -100px;
+  }
+}
+
+.type116 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a116 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type117 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a117 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type118 {
+  animation-name: a118;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes a118 {
+  0% {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0;
+  }
+
+  40% {
+    color: #3142DE;
+  }
+
+  100% {
+    color: blue;
+    margin-top: -100px;
+  }
+}
+
+.type119 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a119 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type120 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a120 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type121 {
+  animation-name: a1;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a121 {
+  0% {
+    color: white;
+  }
+
+  40% {
+    color: #3142DE;
+  }
+
+  100% {
+    color: blue;
+  }
+}
+
+.type122 {
+  animation-name: a2;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+}
+
+.type122 {
+  animation-name: a122;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes a122 {
+  0% {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0;
+  }
+
+  40% {
+    color: #3142DE;
+  }
+
+  100% {
+    color: blue;
+    margin-top: -100px;
+  }
+}
+
+.type123 {
+  animation-name: a122;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes a123 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type124 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a124 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type125 {
+  animation-name: a125;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes a125 {
+  0% {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0;
+  }
+
+  40% {
+    color: #3142DE;
+  }
+
+  100% {
+    color: blue;
+    margin-top: -100px;
+  }
+}
+
+.type126 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a126 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type127 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a127 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type128 {
+  animation-name: a128;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes a128 {
+  0% {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0;
+  }
+
+  40% {
+    color: #3142DE;
+  }
+
+  100% {
+    color: blue;
+    margin-top: -100px;
+  }
+}
+
+.type129 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a129 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type130 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a130 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type131 {
+  animation-name: a1;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a131 {
+  0% {
+    color: white;
+  }
+
+  40% {
+    color: #3142DE;
+  }
+
+  100% {
+    color: blue;
+  }
+}
+
+.type132 {
+  animation-name: a2;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a132 {
+  0% {
+    color: blue;
+  }
+
+  40% {
+    color: #3142DE;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type133 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a133 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type134 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a134 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type134 {
+  animation-name: a3;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes a135 {
+  0% {
+    color: #3142DE;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.type135 {
+  animation-name: a135;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+.boxes {
+  position: relative;
+  min-height: 150vh;
+  color: white;
+}
+
+.boxes * {
+  position: absolute;
+}
+
+.t1, .t2, .t3 {
+  font-size: 10px;
+}
+
+.t1 {
+  padding-left: 50px;
+  width: 170px;
+}
+
+.t3 {
+  padding-top: calc(150vh - 170px);
+  width: 190px;
+  padding-left: calc(100% - 190px);
+}
+
+.t2 {
+  position: relative;
+  width: 220px;
+  top: 100px;
+  left: 50px;
+}
+
+.b1 {
+  top: calc(50% - 150px);
+  left: calc(50% - 165px);
+}
+
+.b2 {
+  animation-name: ba2;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+}
+.b2, .b3, .b4, .b5, .b6, .b7, .b8, .b8,
+.b9, .b10, .b11, .b12, {
+  z-index: 1;
+}
+@keyframes ba2 {
+  0% {
+    top: calc(50% - 115px);
+    left: calc(50% - 110px);
+  }
+
+  100% {
+    top: -230px;
+    left: -230px;
+  }
+}
+
+.b3 {
+  animation-name: ba3;
+  animation-duration: 7s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes ba3 {
+  0% {
+    bottom: 50%;
+    left: 50%;
+  }
+
+  100% {
+    bottom: -100px;
+    left: 0;
+  }
+}
+
+.b4 {
+  animation-name: ba4;
+  animation-duration: 5s;
+  animation-delay: 1.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes ba4 {
+  0% {
+    bottom: 50%;
+    left: 50%;
+  }
+
+  100% {
+    bottom: 500px;
+    left: 0;
+  }
+}
+
+.b5 {
+  animation-name: ba5;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes ba5 {
+  0% {
+    bottom: 50%;
+    left: 50%;
+  }
+
+  100% {
+    bottom: 200px;
+    left: 0;
+  }
+}
+
+.b6 {
+  animation-name: ba6;
+  animation-duration: 5s;
+  animation-delay: 2.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes ba6 {
+  0% {
+    bottom: 50%;
+    left: 50%;
+  }
+
+  100% {
+    bottom: -200px;
+    left: 0;
+  }
+}
+
+.b7 {
+  animation-name: ba7;
+  animation-duration: 5s;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes ba7 {
+  0% {
+    bottom: 50%;
+    left: 50%;
+  }
+
+  100% {
+    bottom: 2200px;
+    left: 0;
+  }
+}
+
+.b8 {
+  top: calc(50% - 115px);
+  right: calc(50% - 110px);
+  animation-name: ba8;
+  animation-duration: 3.5s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes ba8 {
+  0% {
+    top: calc(50% - 100px);
+    right: calc(50% - 160px);
+    opacity: 1;
+  }
+
+  100% {
+    top: -500px;
+    right:0;
+    opacity: 0;
+  }
+}
+
+.b9 {
+  top: calc(50% - 161px);
+  right: calc(50% - 69px);
+  animation-name: ba9;
+  animation-duration: 3s;
+  animation-delay: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes ba9 {
+  0% {
+    opacity: 1;
+    top: calc(50% - 100px);
+    right: calc(50% - 160px);
+  }
+
+  90% {
+    opacity: 1;
+  }
+
+  100% {
+    bottom: -700px;
+    right: 0px;
+    opacity: 0;
+  }
+}
+
+.b10 {
+  animation-name: ba10;
+  animation-duration: 7s;
+  animation-delay: 4.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes ba10 {
+  0% {
+    bottom: 50%;
+    right: 50%;
+  }
+
+  100% {
+    bottom: 120px;
+    right: 0;
+  }
+}
+
+.b11 {
+  animation-name: ba11;
+  animation-duration: 5s;
+  animation-delay: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes ba11 {
+  0% {
+    bottom: 50%;
+    right: 50%;
+  }
+
+  100% {
+    bottom: 300px;
+    right: 0;
+  }
+}
+
+.b12 {
+  animation-name: ba12;
+  animation-duration: 5s;
+  animation-delay: 5.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes ba12 {
+  0% {
+    bottom: 50%;
+    right: 50%;
+  }
+
+  100% {
+    bottom: 22px;
+    right: 0;
+  }
+}
+
+/*================================================*/
+.bottom {
+  display: flex;
+  align-items: flex-end;
+  /* height: 1050px; */
+  overflow-x: hidden;
+  color:white;
+}
+
+.item {
+  width: 60px;
+}
+
+.text {
+  display: flex;
+  align-items: flex-end;
+}
+
+.item img {
+  animation-name: al1;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.item:nth-child(3n) img {
+  animation-duration: 5s;
+  animation-delay: 0;
+}
+
+.item:nth-child(5n+1) img {
+  animation-duration: 7s;
+  animation-delay: 3s;
+}
+
+.item .text p {
+  font-size: 10px;
+  width: 8px;
+  overflow-wrap: break-word;
+  animation-name: at1;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.item:nth-child(3n) .text p {
+  animation-duration: 3s;
+  animation-delay: 0;
+}
+
+.item:nth-child(5n+1) .text p {
+  animation-duration: 7s;
+  animation-delay: 3s;
+}
+
+@keyframes al1 {
+  from {
+    height: 300px;
+  }
+
+  to {
+    height: 50px;
+  }
+}
+
+@keyframes at1 {
+  from {
+    font-size: 13px;
+    width: 8px;
+  }
+
+  to {
+    font-size: 5px;
+    width: 4px;
+  }
+}
+/*================================================================*/
+@media screen and (max-width: 768px) {
+  .top p {font-size: 10px;}
+  .logo {
+    top: 150px;
+  }
+  .boxes {
+    min-height: 100vh;
+  }
+  .b1 {
+    left: calc(50% - 20vw);
+    top: calc(50% - 20vw);
+  }
+  .b1 img {
+      width: 40vw;
+    }
+  .t2 {
+    width: 25vw;
+    top: 10px;
+    left: 10px;
+  }
+  .b2 {
+    width: 110px;
+  }
+  @keyframes ba2 {
+    0% {
+      top: calc(50% - 55px);
+      left: calc(50% - 55px);
+    }
+
+    100% {
+      top: -230px;
+      left: -230px;
+    }
+  }
+  .b3 { width: 45px;}
+  .b4 { width: 30px;}
+  .b5 { width: 36px;}
+  .b6 { width: 32px;}
+  .b7 { width: 52px;}
+  .b8 { width: 115px;}
+  .b9 { width: 93px;}
+  .b10 { width: 48px;}
+  .b11 { width: 22px;}
+  .b12 { width: 32px;}
+
+  .t3 {
+      padding-top: calc(100vh - 40px);
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .top p {font-size: 5px;}
+  .logo {
+    top: 50px;
+  }
+  .t2 {
+    font-size: 9px;
+    top:0;
+    width: 28vw;
+  }
+  @keyframes at1 {
+    from {
+      font-size: 8px;
+      width: 6px;
+    }
+
+    to {
+      font-size: 5px;
+      width: 4px;
+    }
+  }
+  @keyframes al1 {
+    from {
+      height: 200px;
+    }
+
+    to {
+      height: 50px;
+    }
+  }
+}
